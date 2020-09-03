@@ -3,12 +3,12 @@
 ### Contains
 Homepage - to navigate to other pages.
 
-Portfolio - person portfoilo.
+Portfolio - personal portfoilo.
 
-Resume - parsonal Resume.
+Resume - personal Resume.
 
-Blog - Impact of technology
+Blog - on impact of technology
 
-Feedback Page & Research
+Research & Feedback Page
 
 \# The End.
