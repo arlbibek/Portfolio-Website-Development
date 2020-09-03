@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Impact of Technology</title>
+		<meta name="description" content="Coursw work" />
+		<meta name="keywords" content="HTML,CSS,JS,Portfolio,Resume,student" />
+		<meta name="author" content="Bibek Aryal" />
+		<!--Linking csse-->
+		<link rel="stylesheet" type="text/css" href="../CSS/index.css">
+		<!--importing font from google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Lora|Oswald" rel="stylesheet">
+		<!--importing icons-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>/*Styling for nav bar and footer*/
+			/*START >>>css for nav bar*/
+			.navBar {
+				position: -webkit-sticky;
+				position: sticky;
+				top: 0;
+				background-color: lightgray;
+				opacity: 0.9;
+				padding: 10px;
+				text-align: center;
+			}
+			.navBar a {
+				color: black;
+				text-decoration: none;
+				margin: 19px;
+			}
+			.navBar a:hover {
+				text-decoration: underline;
+			}
+			.navBar a:active {
+				text-decoration: none;
+				font-weight: bold;
+			}
+			/*END >>>css for nav bar*/
+
+		</style>
+	<style>
+		/*START >>>css for blog contents*/
+		.info {/*writhing content*/
+			border: 1px solid black;
+			border-radius: 4px;
+			margin: 50px 150px;
+			padding: 30px 30px;
+			background-color: #C0C0C0;
+		}
+		.infoSlide {
+			border: 0px solid black;
+			border-radius: 0px;
+			margin: 22px -8px;
+			padding: 30px 10px;
+			background-color: #C0C0C0;
+		}
+		.moreInfo{
+			margin-top: 33px;
+			padding: 10px;
+			background-color: white;
+			height: 300px;
+		}
+		h2 > span{
+			padding: 10px;
+			border-radius: 50px;
+			background-color: #DCDCDC;
+		}
+		/*END >>>css for blog contents*/
+	</style>
+	<style>/*Styile for slide show*/
+		.mySlides {
+			display: none;
+		}
+		img {
+			vertical-align: middle;
+		}
+		/* Slideshow container */
+		.slideshow-container {
+		  	max-width: 1000px;
+		  	margin: auto;
+		}
+		/* slide indicators */
+		.dot {
+		 	cursor: pointer;
+		  	height: 4px;
+		  	width: 19px;
+		  	margin: 2px;
+		  	background-color: grey;
+		  	border-radius: 0%;
+		  	display: inline-block;
+		  	transition: background-color 0.6s ease;
+		}
+		.dot:hover {
+		  		background-color: black;
+		}
+		.active{
+		  	background-color: black;
+		  	width: 33px;
+		}
+	</style>
+</head>
+<body>
+	<!--START nav bar-->
+	<div class="navBar">
+		<a href="../indexpage.html">Home</a>
+		<a href="../pages/blog.html">Blog</a>
+		<a href="../pages/portfolio.html">Portfolio</a>
+		<a href="../pages/resume.html">Resume</a>
+		<a href="../pages/research.html">Research</a>
+		<a href="../pages/feedback.html">Feedback</a>
+	</div>
+	<!--END nav bar-->
+	<div style="background-image: url(../images/impact.jpg); background-position: center; background-size: cover; padding: 20px">
+		<h1>Impact of Technology</h1>
+	</div>
+	<div class="infoSlide">
+		<div class="slideshow-container"><!--slide show div-->
+		   	<div class="mySlides">
+		   		<img src="../images/slide1.jpg" style="width:100%">
+		  	</div>
+		  	<div class="mySlides">
+		   		<img src="../images/slide2.jpg" style="width:100%">
+		  	</div>
+		  	<div class="mySlides">
+		   		<img src="../images/slide3.jpg" style="width:100%">
+		  	</div>
+		  	<div class="mySlides">
+		   		<img src="../images/slide4.jpg" style="width:100%">
+		  	</div>
+		  	<div class="mySlides">
+		   		<img src="../images/slide5.jpg" style="width:100%">
+		  	</div>
+		  	<div class="mySlides">
+		   		<img src="../images/slide6.jpg" style="width:100%">
+		  	</div>
+		</div>
+		<div style="text-align:center">
+		  	<span class="dot" onclick="currentSlide(1)"></span>
+		  	<span class="dot" onclick="currentSlide(2)"></span>
+		  	<span class="dot" onclick="currentSlide(3)"></span>
+		  	<span class="dot" onclick="currentSlide(4)"></span>
+		  	<span class="dot" onclick="currentSlide(5)"></span>
+		  	<span class="dot" onclick="currentSlide(6)"></span>
+		</div>
+		<script type="text/javascript" src="../JavaScript/slideShow.js"></script>
+	</div>
+	<div class="info"><!--this div includes blog contents-->
+    	<h2><span>Impact of Technology on Society</span></h2>
+    	<p>
+    		Think of the days when there were no computers and no modern means of transport. Human life was highly restricted due to the unavailability of technological applications. Daily life involved a lot of physical activity. Life of the common man was not as luxurious as that of modern times, but he was more active. Exercise was integrated into routine physical activities. It was contrary to the sedentary lifestyle of today, which leaves no time for exercise and fills days with inactivity and laze. Today we don't want to, and thanks to the advancement in technology, don't even need to walk, move around, or exert ourselves physically to great extents in order to get things done. We have the world at our fingertips.
+    	</p>
+    </div>
+    <div class="info"><!--this div includes blog contents-->
+    	<h2><span>Impact of Technology on Social Media</span></h2>
+    	<p>
+    		The many forms of social media include any means of communication and interaction that involve a social element, including email, social networking, instant messaging and chat, telecommunications, videoconferencing, forums, blogs and even normal human communication such as face-to-face conversations, business meetings, presentations and body language. Social media is an integral element of any business as humans must communicate to get work done. Social media interactions are becoming increasingly important as technology is adapting to include a more human-friendly element, including social-based operating systems and communication-oriented software applications.
+    	</p>
+    </div>
+    <div class="info"><!--this div includes blog contents-->
+    	<h2><span>Impact of Technology on Education</span></h2>
+    	<p>
+    		Technology has certainly changed the way we live. It has impacted different facets of life and redefined living. Undoubtedly, technology plays an important role in every sphere of life. Several mundane manual tasks can be automated, thanks to technology. Also, many complex and critical processes can be carried out with ease and greater efficiency with the help of modern technology. Thanks to the application of technology, living has changed and it has changed for better.
+    		<br>
+    		We think of technology as a boon to society. I am afraid; it's not completely a boon. The Internet has bred many unethical practices like hacking, spamming and phishing. Internet crime is on the rise. The Internet, being an open platform lacks regulation. There is no regulation on the content displayed on websites. Internet gambling has become an addiction for many. Overexposure to the Internet has taken its toll. In this virtual world, you can be who you are not, you can be virtually living even after you die. Isn't this weird? Children are spending all their time playing online and less or almost no time playing on the ground. Youngsters are spending most of their time social networking, missing on the joys of real social life.
+    	</p>
+    </div>
+    <div class="info"><!--this div includes blog contents-->
+    	<h2><span>Impact of Technology on Healthcare </span></h2>
+    	<p>
+    		Continuous technological developments in healthcare have saved countless lives and improved the quality of life for even more. Not only has technology changed experiences for patients and their families, but it’s also had a huge impact on medical processes and the practices of healthcare professionals.
+    	</p>
+    </div>
+    <div class="info"><!--this div includes blog contents-->
+    	<h2><span>Impact of Technology in Agriculture</span></h2>
+    	<p>
+    		You may have noticed over the last few months that we’ve expanded our focus to technology in agriculture. After years of investing and months of research, “ag tech” is now an active sector focus, but it’s always been an area of interest for us. In fact, two of our portfolio companies, SlimTrader and Promethean Power, deploy their technologies with farmers. Over the last few months, we’ve seen a flurry of activity in the ag tech space and we’re excited about the trends and innovations that are making it a smart and high-impact investment opportunity.
+    	</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--footer section-->
+	<footer>
+		<div class="footer">
+			<p style="font-size: 15px;margin-bottom: 1px;">Don't forget to give a <a href="pages/feedback.html">Feedback</a>!</p><hr>
+			<p style="font-size: 37px;">Bibek Aryal</p>
+			<p style="font-size: 20px">Kathmandu, Nepal</p>
+			<p style="font-size: 17px">+977-9841234567 | +01-5123456</p>
+			<p style="font-size: 7px; opacity: 0.5;">&copy;2019 All rights reserved. | Bibek Aryal </p>
+		</div>
+	</footer>
+</body>
+</html>

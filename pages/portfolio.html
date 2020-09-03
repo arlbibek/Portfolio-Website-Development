@@ -1,0 +1,383 @@
+<!--portfolio-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bibek Aryal | Portfolio</title>
+		<!--linking external css-->
+		<link rel="stylesheet" type="text/css" href="../CSS/portfolio.css">
+		<!--importing fonts from google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat|Gugi|Lora|Oswald|Patrick+Hand" rel="stylesheet">
+		<!--importing different icons from BootstrapCDN-->
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<style>
+			.container{
+				position: relative;
+				text-align: center;
+				color: black;
+			}
+			.top_left { /*text name*/
+			    position: absolute;
+			    top: 8px;
+			    left: 16px;
+			    font-size: 14px;
+			    font-weight: bold;
+			}
+			.nav{
+				float: left;
+				margin: 7px;
+
+			}
+			.under_top_left { /*text features*/
+			    position: absolute;
+			    top: 55px;
+			    left: 55px;
+			    font-size: 15px;
+			}
+			.center {
+			  	position: absolute;
+			 	top: 50%;
+			  	left: 50%;
+			  	transform: translate(-50%, -50%);
+			}
+			.bottom_right {
+ 				position: absolute;
+  				right: 16px;
+			}
+			.footer{
+				background-color: lightgrey;
+				padding: 11px 16px 1px 16px;
+				text-align: center;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 10px;
+				border: 1px solid #581845;
+			}
+			.mail{
+				display: inline-flex;
+				padding: 1px 11px 1px 11px;
+			}
+			a{
+				text-decoration: none;
+				color: black;
+				font-weight: bold;
+				font-family: roboto;
+			}
+			a:hover{
+				text-decoration: underline;
+
+			}
+			a:active{
+				color: brown;  
+
+			}
+			/*START >>>css for sticky bar*/
+			.stickyBar {
+			    position: -webkit-sticky;
+			  	position: sticky;
+			  	top: 0;
+			  	padding: 10px;
+			  	text-align: center;
+			  	background-color: #581845;
+			}
+			.avatar {
+  				vertical-align: middle;
+  				width: 50px;
+  				height: 50px;
+  				border-radius: 50%;
+			}
+			/*END >>>css for sticky bar*/
+			.info {/*writhing content*/
+				border:0px solid black;
+				margin: 50px 0px;
+				padding: 50px 250px;
+				background-color: ;
+			}
+			.info i{
+				background-color: lightgrey;
+				font-size: 11px;
+				margin-right: 10px;
+				padding: 4px;
+				border-radius: 2px;
+			}
+			.infoBox {/*box for adding content in portfolio*/
+				border:0px solid black;
+				margin: 50px 0px;
+				padding: 50px;
+				background-color: #581845;
+			}
+			.aboutMe{
+				background-color: orange;
+				margin: 100px;
+				border-radius: 7px;
+				padding: 50px;
+			}
+		</style>
+		<style>/*Style for slide show*/
+			* {
+				box-sizing: border-box;
+			}
+			.mySlides {
+				display: none
+			}
+			img {
+				vertical-align: middle;
+			}
+			/* Slideshow container */
+			.slideshow-container {
+			  	max-width: 1000px;
+			  	position: relative;
+			  	margin: auto;
+			}
+			/* slide indicators */
+			.dot {
+			 	cursor: pointer;
+			  	height: 4px;
+			  	width: 19px;
+			  	margin: 2px;
+			  	background-color: #bbb;
+			  	border-radius: 0%;
+			  	display: inline-block;
+			  	transition: background-color 0.6s ease;
+			}
+			.dot:hover {
+			  		background-color: black; 
+			}
+			.active{
+			  	background-color: black;
+			  	width: 33px;  
+			}
+			.row {
+			 	display: flex;
+			}
+			/* Create three equal columns that sits next to each other */
+			.column {
+			  	flex: 33.33%;
+			  	padding: 0px;
+			 	margin: 19px;
+			}
+		</style>		
+		<script type="text/javascript">//typing effect
+			/*calling typing effect function on page load*/
+			window.onload = function() {
+				autoType();
+			}
+			/*java script for typing effect*/
+			var i = 0;
+			var txt = 'Hello world'; /*text for typing*/
+			var speed = 55; /* The speed of the effect in milliseconds */
+
+			function autoType() {
+				 if (i < txt.length) {
+			    document.getElementById("startTyping").innerHTML += txt.charAt(i);
+			    i++;
+			    setTimeout(autoType, speed);
+			  	}
+			}
+		</script>
+		<!--<i class="fa fa-address-book" aria-hidden="true"></i>-->
+	</head>
+	<body>
+		<div class="container">
+			<img src="../images/buldings.jpg" alt="Image" style="width: 100%">
+			<div class="center"><q style="font-family: 'Gugi', cursive; font-size: 33px"><b>I will solve your problem and you will pay me!</b></q></div>
+		</div>
+		<div class="top_left"><!--this div id for navagation-->
+			<div class="nav"><a href="../indexPage.html">Home</a></div>
+			<div class="nav"><a href="resume.html">Resume</a></div>
+			<div class="nav"><a href="blog.html">Blog</a></div>
+			<div class="nav"><a href="feedback.html">Feedback</a></div>
+		</div>
+		<div class="stickyBar">
+			<span>
+				<div><h1>Bibek Aryal</h1></div>
+				<div style="color: white; display: inline;" id="startTyping"></div><div></div><!--auto text typing effect-->
+			</span>
+		</div>
+		<!--about me-->
+		<div class="aboutMe" style="text-align: center;">
+			<h2 >About Me</h2>
+			<div class="row">
+				<div class="column">
+					<h3>Education</h3>
+					<hr>
+					<br>
+					Islingtong College<br>
+					2018 - Current<br>
+					Networking - IT Security<br>
+					<hr>
+					People's Campus<br>
+					2017 - 2018<br>
+					Bachelor of Business Studies<br>
+					<hr>
+					Times International College<br>
+					2014 - 2016<br>
+					Hotel Management<br>
+					<hr>
+					Sirjana Gyansagar School<br>
+					2010 - 2014<br>
+					High School<br>
+				</div>
+				<div class="column">
+					<h3>Skills</h3>
+					<hr>
+					Python<br>
+					30%<br>
+					<hr>
+					Java<br>
+					25%<br>
+					<hr>
+					Database<br>
+					50%<br>
+					<hr>
+					Adobe Photoshop<br>
+					80%<br>
+					<hr>
+					Video Editing<br>
+					70%<br>
+					<hr>
+					Photography<br>
+					75%<br>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<!--Ex1: LibaryManagement------------------------------------------------------------------------------------------------>
+		<div class="info">
+			<h1 style="color: black">Expirences</h1>
+			<hr>
+			<h2>Library Management System</h2>
+			<i>Python</i>
+			<p>
+				After learning and palaying around with python for a month or two is started focusing on developing a simple program with the knowledge I had <b>&quot;A Library Management System&quot;</b>. This program basically helps in maintaining various records in a library by handling it in a very organized way. This program is particularly focused on managing a small library by generating borrow note, borrow return note, as well as keeping the exact record of the stock available. The program was prepared with the help of algorithm, flowchart, pseudocode and also a lot for research on related topics.An application which reads books information from a text file maintained by a library while keeping the records borrow and return of the books by generating the notes with the customer information respectively and also simultaneously updating stock of books as well. 
+			</p>
+		</div>
+		<div class="infoBox">
+			<div class="row">
+				<div class="column">
+					<img src="../images/Ex1a.png" alt="Library Management Screenshot" style="width: 100%">
+				</div>
+				<div class="column">
+					<img src="../images/Ex1b.png" alt="Library Management Screenshot" style="width: 100%">
+				</div>
+			</div>
+		</div>
+
+		<!--Ex2: Data Base------------------------------------------------------------------------------------------------------->
+		<div class="info">
+			<h2>Data Base</h2>
+			<i>MySQL</i>
+			<p>
+				I also designed a basic data base for a Fitness Club. The company had various branches on different locations in an international level which handled members in enormous volume with numerous staffs and trainers. I now feel confident and somewhat experienced in building a simple data base for an establishment.
+			</p>
+		</div>
+		<div class="infoBox">
+			<div class="row">
+				<div class="column">
+					<img src="../images/Ex2a.png" alt="Data Base Screenshot" style="width: 100%">
+				</div>
+				<div class="column">
+					<img src="../images/Ex2f.png" alt="Data Base Screenshot" style="width: 100%">
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<img src="../images/Ex2b.png" alt="Data Base Screenshot" style="width: 100%">
+				</div>
+				<div class="column">
+					<img src="../images/Ex2g.png" alt="Data Base Screenshot" style="width: 100%">
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<img src="../images/Ex2c.png" alt="Data Base Screenshot" style="width: 100%">
+				</div>
+				<div class="column">
+					<img src="../images/Ex2h.png" alt="Data Base Screenshot" style="width: 100%">
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<img src="../images/Ex2d.png" alt="Data Base Screenshot" style="width: 100%">
+				</div>
+				<div class="column">
+					<img src="../images/Ex2i.png" alt="Data Base Screenshot" style="width: 100%">
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<img src="../images/Ex2e.png" alt="Data Base Screenshot" style="width: 100%">
+				</div>
+				<div class="column">
+					<img src="../images/Ex2j.png" alt="Data Base Screenshot" style="width: 100%">
+				</div>
+			</div>
+		</div>
+
+		<!--Ex3: appointment system---------------------------------------------------------------------------------------------->
+		<div class="info">
+			<h2>Programming</h2>
+			<i>Java</i>
+			<p>
+				I also have considerable expirence in programming. I developer a program of Individual Developer Appointment System representing DEVELOPERS, together with two subclasses to represent a Senior Developer and a Junior Developer respectively and later design Graphical User Interface (GUI) of the same program.
+			</p>
+		</div>
+		<div class="infoBox">
+			<div class="row">
+				<div class="column">
+					<img src="../images/Ex3a.png" alt="Photoshoped image" style="width: 100%">
+				</div>
+				<div class="column">
+					<img src="../images/Ex3b.png" alt="Photoshoped image" style="width: 100%">
+				</div>
+			</div>
+		</div>
+		<!--Ex4: others---------------------------------------------------------------------------------------------------------->
+		<div class="info">
+			<h2>Others</h2>
+			<i>Photoshop </i><i> Video Editing</i>
+			<p>
+				I started to manipulate photos and videos from when I was eleven.
+				<br>
+				Play around with photos helps me explore my creativity and keep me refreshed and somehow motivates me to do things. 
+				<br>
+				Video editing is also one of the things than I never get tired doing. Editing travel videos, creating & capturing a memory for a life time and being the man behind the scene is one of the thing that I enjoy in life.
+				<br>
+				Like they say <q style="font-weight: bold;">FIND THREE HOBBIES: ONE TO MAKE MONEY , ONE TO KEEP YOU IN SHAPE, AND ONE TO BE CREATIVE.</q> Well <b>Photoshop</b> & <b>Video Editing</b> for me is for being creative.
+			</p>
+
+		</div>
+		<div class="infoBox">
+			<div class="row">
+				<div class="column">
+					<img src="../images/Ex4a.jpg" alt="Photoshoped image" style="width: 100%">
+				</div>
+				<div class="column">
+					<img src="../images/Ex4b.jpg" alt="Photoshoped image" style="width: 100%">
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<p style="color: white; text-align: center;">Here's a travel video I Created.</p>
+					<video width="100%" poster="../images/thumbnail.png" controls>
+						<source src="../Videos/Tour_2018.mp4" type="video/mp4">
+					</video>
+					<br><br><hr>
+					<p style="color: white; text-align: center;">Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you.</p>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer">
+				<img src="../images/icon_work.svg" alt="Icon Work" width="11%">
+				<h4>Let's collaborate!</h4>
+				<div class="mail">
+						<p style="font-size: 19px"><i class="fa fa-envelope" aria-hidden="true"></i></i> bibeknaryal@gmail.com</p>
+				</div>
+				<p style="font-size: 7px; text-align: center; opacity: 0.5;">&copy;2019 All rights reserved. | Bibek Aryal </p>
+			</div>
+		</footer>
+	</body>
+</html>

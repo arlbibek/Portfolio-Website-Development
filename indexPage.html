@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home Page</title>
+		<meta name="description" content="Coursw work" />
+		<meta name="keywords" content="HTML,CSS,JS,Portfolio,Resume,student" />
+		<meta name="author" content="Bibek Aryal" />
+		<!--Linking css-->
+		<link rel="stylesheet" type="text/css" href="CSS/index.css">
+		<!--importing font from google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Lora|Oswald" rel="stylesheet">
+		<!--importing icons-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>/*Styling for nav bar and footer*/
+			/*START >>>css for nav bar*/
+			.navBar {
+				position: -webkit-sticky;
+				position: sticky;
+				top: 0;
+				background-color: lightgray;
+				opacity: 0.9;
+				padding: 10px;
+				text-align: center;
+			}
+			.navBar a {
+				color: black;
+				text-decoration: none;
+				margin: 19px;
+			}
+			.navBar a:hover {
+				text-decoration: underline;
+			}
+			.navBar a:active {
+				text-decoration: none;
+				font-weight: bold;
+			}
+			/*END >>>css for nav bar*/
+			/*START >>>css for footer*/
+			.footer{
+				background-color: lightgrey;
+				padding: 11px 16px 1px 16px;
+				text-align: center;
+				font-family: 'Lora', serif;
+				font-size: 10px;
+				margin-top: 0px;
+				bottom: 0;
+				width: 100%;
+			}
+			.footer p{
+				padding: 5px;
+				margin: 0px;
+				text-align: center;
+			}
+			/*END >>>css for footer*/
+			.row {
+			 	display: flex;
+			}
+			/* Create three equal columns that sits next to each other */
+			.column {
+			  	flex: 33.33%;
+			  	padding: 0px;
+			 	margin: 50px 50px;
+			 	border: 1px solid black;
+			 	background-color: #C0C0C0;
+			 	border-radius: 4px;
+				box-shadow: 11px 11px 10px grey;
+			}
+			.info {/*writhing content*/
+				border:0px solid black;
+				border-radius: 10px;
+				margin: 10px 50px;
+				padding: 20px;
+				background-color: #DCDCDC;
+
+			}
+			.infoPages {
+				margin: 0px;
+				padding: 10px;
+			}
+			.column:hover {
+				border: 1px solid green;
+				box-shadow: 14px 4px 22px grey;
+			}
+			.column:active {
+				border: 1px solid #581845;
+			}
+			img{
+				border-radius: 4px;
+			}
+			a > h3 {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="navBar">
+			<a href="indexPage.html">Home</a>
+			<a href="pages/blog.html">Blog</a>
+			<a href="pages/portfolio.html">Portfolio</a>
+			<a href="pages/resume.html">Resume</a>
+			<a href="pages/research.html">Research</a>
+			<a href="pages/feedback.html">Feedback</a>
+		</div>
+
+
+		<div class="info">
+			<h2>Introduction</h2>
+			<p>
+				Web design is a Web development process for creating a website that focuses on aesthetic factors like layout, user interface and other visual imagery in order to make the website more visually appealing and easy to use.
+				As of 5 April 2019, 4.2 billion+ people use the internet and there are 1.6 billion+ website <a href="https://www.internetlivestats.com)">source</a>.
+				<br>
+				<i>This page will help you navigate to other pages.</i>
+			</p>
+
+		</div>
+		<div class="infoPages">
+			<div class="row">
+				<div class="column">
+					<a href="pages/portfolio.html">
+						<img src="images/home_portfolio.png" alt="portfolio background" style="width: 100%">
+						<h3>My Portfolio</h3>
+					</a>
+				</div>
+				<div class="column">
+					<a href="pages/resume.html">
+						<img src="images/home_resume.png" alt="resume background" style="width: 100%">
+						<h3>My Resume</h3>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<a href="pages/blog.html">
+						<img src="images/home_blog.jpg" alt="blog background" style="width: 100%">
+						<h3>Blog</h3>
+					</a>
+				</div>
+				<div class="column">
+					<a href="pages/research.html">
+						<img src="images/home_research.jpg" alt="research background" style="width: 100%">
+						<h3>Research</h3>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+		<footer>
+			<div class="footer">
+				<p style="font-size: 15px;margin-bottom: 1px;">Don't forget to give a <b><a href="pages/feedback.html">Feedback</a></b>!</p><hr>
+				<p style="font-size: 37px;">Bibek Aryal</p>
+				<p style="font-size: 20px">Kathmandu, Nepal</p>
+				<p style="font-size: 17px">+977-9841234567 | +01-5123456</p>
+				<p style="font-size: 7px; opacity: 0.5;">&copy;2019 All rights reserved. | Bibek Aryal </p>
+			</div>
+		</footer>
+	</body>
+</html>
