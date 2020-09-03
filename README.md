@@ -1,14 +1,14 @@
 # Webpage 
 >This is and academic Coursework.
 ### Contains
-Homepage - to navigate to other pages.
++ Homepage - to navigate to other pages.
 
-Portfolio - personal portfoilo.
++ Portfolio - personal portfoilo.
 
-Resume - personal Resume.
++ Resume - personal Resume.
 
-Blog - on impact of technology
++ Blog - on impact of technology
 
-Research & Feedback Page
++ Research & Feedback Page
 
 \# The End.
