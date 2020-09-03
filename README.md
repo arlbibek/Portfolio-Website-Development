@@ -1,2 +1,9 @@
-# Portfolio-Bibke-Aryal
-Acedemic Coursework.
+# Webpage 
+>This is and academic Coursework.
+Homepage - to navigate to other pages.
+Portfolio - person portfoilo.
+Resume - parsonal Resume.
+Blog - Impact of technology
+Feedback Page & Research
+
+\# The End.
